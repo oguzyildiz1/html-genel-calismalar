@@ -1,2 +1,2 @@
 # html-genel-calismalar
-genel çalışmalar
+Html ile ilgili 2022-2024 arasında kodladığım genel çalışmalar. Çoğu öğrenme amaçlıdır. 
