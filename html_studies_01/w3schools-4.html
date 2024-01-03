@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+	<style>
+		.pink{
+			color:pink;
+		}
+		.red{
+			color:red;
+		}
+		.black{
+			color:black;
+		}
+		.back{
+			background-color:yellow;
+		}
+		iframe{
+			width:1000px;
+			height:1500px;
+			margin: 0 auto;
+			border:none;
+		}
+	</style>
+</head>
+
+<body>
+
+	<img id="first" src="ferrari.jpeg"/>
+    <table id="table1" border="1px" style="width:300px;">
+		<caption>Names</caption>
+		<tr>
+			<th id="span" colspan="2">Name</th>
+			<th>Age</th>
+		</tr>
+		<tr>
+			<td id="span_2" rowspan="2">Oğuzhan</td>
+			<td>38</td>
+		</tr>
+		<tr>
+			<td>Ferhan</td>
+			<td>65</td>
+		</tr>
+		<tr>
+			<td>Orhan</td>
+			<td>35</td>
+		</tr>
+	</table>
+	
+	<ol id="degis" type="I" class="red black back">
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Coke</li>
+	</ol>
+	
+	<dl border="1px">
+		<dt>Coffee</dt>
+		<dd>Black hot drink</dd>
+		<dt>Coke</dt>
+		<dd>Cold Black Drink</dd>
+	</dl>
+	
+	<iframe src="https://forums.d2jsp.org/topic.php?t=77225708&f=87&o=0"></iframe>
+	<p>Code example: <code>var person;</code></p>
+	<p>Code example:</p>
+	
+	<pre><code>var person={
+		firstName: "John",
+		lastName: "Doe"
+	}
+	</code></pre>
+
+	<p>A simple math equation: <var>zx</var> = 3 + 2; </p>
+	<script>
+		
+		document.getElementById("first").src="porsche.jpeg";
+		document.getElementById("table1").style.width="200px";
+		document.getElementById("span_2").rowspan="1";
+		document.getElementById("degis").type="1";
+		
+		console.log(zx);
+	
+	</script>
+</body>
+
+</html>
